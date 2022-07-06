@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NavigationBasedOnActivity">
         <activity
+            android:name=".BoxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BoxSelectionActivity"
+            android:exported="false"
+            android:label="@string/box_selection"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".OptionsActivity"
+            android:exported="false"
+            android:label="@string/options"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false"
+            android:label="@string/about"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

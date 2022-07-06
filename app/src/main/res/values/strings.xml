@@ -1,3 +1,34 @@
 <resources>
     <string name="app_name">NavigationBasedOnActivity</string>
+    <string name="about">About</string>
+    <string name="box_selection">Box selection</string>
+    <string name="options">Options</string>
+    <string name="about_the_application">About the application</string>
+    <string name="application_name">Application name</string>
+    <string name="version_name">Version name</string>
+    <string name="version_code">Version code</string>
+    <string name="select_boxes_number">Boxes number</string>
+    <string name="enable_timer">Enabled timer</string>
+    <string name="confirm">Confirm</string>
+    <string name="please_select_a_box">Please select a box</string>
+    <string name="cancel">Cancel</string>
+    <string name="box">Box</string>
+    <string name="box_title">Box #%1$d</string>
+    <string name="empty_box">This box is empty. Try another one.</string>
+    <string name="to_main_menu">To Main Menu</string>
+    <string name="timer_value">Timer: %1$d sec.</string>
+    <string name="the_end">The end</string>
+    <string name="timer_end_message">Oops, there is no enough time, try again later.</string>
+    <string name="done">Done</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="done_icon">Done icon</string>
+
+    <plurals name="boxes">
+        <item quantity="zero">%1$d boxes</item>
+        <item quantity="one">%1$d box</item>
+        <item quantity="two">%1$d boxes</item>
+        <item quantity="few">%1$d boxes</item>
+        <item quantity="many">%1$d boxes</item>
+        <item quantity="other">%1$d boxes</item>
+    </plurals>
 </resources>

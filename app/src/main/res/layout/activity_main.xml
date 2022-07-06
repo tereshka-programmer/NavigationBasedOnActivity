@@ -6,13 +6,44 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/btOpenBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Open Box"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308" />
 
+    <Button
+        android:id="@+id/btOptions"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Options"
+        app:layout_constraintEnd_toEndOf="@+id/btOpenBox"
+        app:layout_constraintStart_toStartOf="@+id/btOpenBox"
+        app:layout_constraintTop_toBottomOf="@+id/btOpenBox" />
+
+    <Button
+        android:id="@+id/btAbout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="About"
+        app:layout_constraintEnd_toEndOf="@+id/btOptions"
+        app:layout_constraintStart_toStartOf="@+id/btOptions"
+        app:layout_constraintTop_toBottomOf="@+id/btOptions" />
+
+    <Button
+        android:id="@+id/btExit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Exit"
+        app:layout_constraintEnd_toEndOf="@+id/btAbout"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btAbout"
+        app:layout_constraintTop_toBottomOf="@+id/btAbout" />
 </androidx.constraintlayout.widget.ConstraintLayout>
